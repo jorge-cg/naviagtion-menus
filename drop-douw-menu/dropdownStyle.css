@@ -1,5 +1,5 @@
 header{
-	width: 100%
+	width: 100%;
 	font-size: 28px;
 	padding: .5em;
 	background-color: rgb(67, 150, 170);
@@ -29,4 +29,10 @@ header{
 
 .menu > ul > li > a{
 	padding: .25em 1em;
+}
+
+/*hover style*/
+.menu li:hover > a{
+	background-color: rgb(39, 41, 42);
+	color: rgb(67, 150, 170);
 }
