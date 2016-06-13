@@ -36,3 +36,22 @@ header{
 	background-color: rgb(39, 41, 42);
 	color: rgb(67, 150, 170);
 }
+
+/*sub menu styles*/
+.sub-menu{
+	opacity: 0;
+	width: 150%;
+	padding-left: 0px;
+	background-color: rgb(62, 52, 54);
+	position: absolute;
+		top: 90%;
+		left: 50%;
+	transition: opacity linear .2s;
+}
+
+/*show sub menu*/
+
+.menu li:hover .sub-menu{
+	opacity: 1;
+	z-index: 10;
+}
