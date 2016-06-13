@@ -17,6 +17,16 @@ header{
 
 .menu a {
 	text-decoration: none;
-	color: white
-	;
+	color: white;
+}
+
+/*top level menu*/
+.menu > ul > li {
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+}
+
+.menu > ul > li > a{
+	padding: .25em 1em;
 }
